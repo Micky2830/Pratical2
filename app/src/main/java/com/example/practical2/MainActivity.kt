@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 
     binding.apply {
         myName1?.nickname = binding.nicknameEdit.text.toString()
-
+        invalidateAll()
         // manipulating the view
         // nicknameText.text = binding.nicknameEdit.text.toString() for the user input
         //toString() can remove the underline of a word
